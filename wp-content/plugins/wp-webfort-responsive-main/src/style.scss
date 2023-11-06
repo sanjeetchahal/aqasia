@@ -1,0 +1,55 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+ .wp-block-responsive-pulgin-wp-responsive-plugin {
+	background-color: #21759b;
+	color: #fff;
+	padding: 2px;
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .xs {
+    display: none !important;
+    }
+  }
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .sm {
+      display: none !important;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .md {
+      display: none !important;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .lg {
+      display: none !important;
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) and (max-width: 1399.98px) {
+    .xl {
+      display: none !important;
+    }
+  
+  }
+  @media (min-width: 1400px) { 
+    .xxl{
+      display: none !important;
+    }
+  }
+  
+  /* X-Extra large devices (large desktops, 1400px and up) */
+ 
