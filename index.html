@@ -14,7 +14,47 @@
 .wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;text-decoration: none;}
 .wp-block-navigation a:where(:not(.wp-element-button)):hover{text-decoration: underline;}
 .wp-block-navigation a:where(:not(.wp-element-button)):focus{text-decoration: underline dashed;}
-.wp-block-navigation a:where(:not(.wp-element-button)):active{text-decoration: none;}</style>
+.wp-block-navigation a:where(:not(.wp-element-button)):active{text-decoration: none;}
+@media (max-width: 575.98px) {
+    .xs {
+    display: none !important;
+    }
+  }
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .sm {
+      display: none !important;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .md {
+      display: none !important;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .lg {
+      display: none !important;
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) and (max-width: 1399.98px) {
+    .xl {
+      display: none !important;
+    }
+  
+  }
+  @media (min-width: 1400px) { 
+    .xxl{
+      display: none !important;
+    }
+  }
+</style>
 <link rel="stylesheet" id="tw-block-navigation-css" href="/wp-content/plugins/twentig/dist/blocks/navigation/style.css?ver=6.3.2" media="all">
 <link rel="stylesheet" id="wp-block-image-css" href="/wp-content/plugins/gutenberg/build/block-library/blocks/image/style.css?ver=16.9.0" media="all">
 <style id="wp-block-image-inline-css">.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-image{margin:0 0 1em}</style>
